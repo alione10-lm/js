@@ -63,15 +63,16 @@ const ReverseInt = () => {
   return Number(arr.join("").split("").reverse().join(""));
 };
 
+console.log(ReverseInt());
 // challenge 9
-const KmToMile = (km) => {
+const KmToMile = () => {
   const km = prompt("enter a distance in km: ");
 
   return km / 1.609;
 };
 
 // challenge 10
-const MoneyConverter = (euro) => {
+const MoneyConverter = () => {
   const euro = prompt("enter an amount of euro ");
 
   return euro / 10.61;
